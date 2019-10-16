@@ -1,0 +1,20 @@
+
+
+# PREREQUISITE
+# - virtualenv (https://virtualenv.pypa.io/en/latest/)
+
+# Create a virtual environment for python 3.x
+virtualenv -p python3 tutorial
+
+# Activate the virtalenv
+source tutorial/bin/activate
+
+# Install the packages needed for this tutorial
+pip install jupyter cobra swiglpk
+
+
+cd cbm_tutorial
+
+
+
+
